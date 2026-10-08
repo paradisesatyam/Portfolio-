@@ -25,7 +25,7 @@ export const experience = [
 ]
 
 export const education = [
-  { degree: 'B.Tech – Computer Science Engineering (AI/ML)', school: '[ADD COLLEGE NAME]', detail: 'AKTU University · 2023–2027 · CGPA: [ADD CGPA]' },
+  { degree: 'B.Tech – Computer Science Engineering (AI/ML)', school: "Mahatma Gandhi Mission's College of Engineering & Technology", detail: 'AKTU University · 2023–2027 · CGPA: [ADD CGPA]' },
   { degree: 'School', school: 'Modern School Vaishali', detail: '2012–2023' },
 ]
 
