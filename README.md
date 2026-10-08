@@ -1,6 +1,6 @@
 # Satyam Anand — Portfolio
 
-A responsive React + TypeScript + Vite portfolio for Satyam Anand. Static frontend: no database, paid service, secret key, or backend is required.
+A responsive React + TypeScript + Vite portfolio for Satyam Anand. Live site: https://portfolio-rust-one-f32v3cisrw.vercel.app/. Static frontend: no database, paid service, secret key, or backend is required.
 
 ## Run locally
 
@@ -13,7 +13,7 @@ Open the local address Vite prints (usually http://localhost:5173). For producti
 
 ## Add your resume
 
-Place the final resume PDF inside the public folder and name it resume.pdf. The Download Resume links point to /resume.pdf. The rest of the portfolio works while the PDF is missing.
+The current resume is public/resume.docx. The Download Resume buttons download it as Satyam-Anand-Resume.docx. Replace this file when you update your resume.
 
 ## Add a profile image
 
@@ -23,11 +23,10 @@ The hero currently uses an original CSS code-editor illustration. To add a photo
 
 - Personal details, social links, experience, education, skills, certifications, and achievements are in src/data/profile.ts.
 - Project descriptions, technologies, features, GitHub links, and demos are in src/data/projects.ts.
-- Replace each empty project github and demo value with its real URL. Empty values intentionally show [ADD GITHUB URL] or [ADD LIVE DEMO URL].
+- Project demo URLs are set in src/data/projects.ts. Replace each empty project github value with its real URL; empty values intentionally show [ADD GITHUB URL].
 - The LinkedIn URL currently uses the link supplied for setup. Replace it with your public profile URL if needed.
-- Replace [ADD DURATION], [ADD COLLEGE NAME], [ADD CGPA], and certificate URL placeholders when those details are available.
+- Replace [ADD COLLEGE NAME] and [ADD CGPA] when those details are available.
 - The contact form opens the visitor's email application with a prefilled message; it does not send through a server.
-- Add the portfolio URL after deployment.
 
 ## Push to GitHub
 
@@ -63,4 +62,4 @@ An optional custom domain can be added in the project's Settings, Domains. A pur
     public/
       favicon.svg
       robots.txt
-      resume.pdf (add your PDF here)
+      resume.docx (current downloadable resume)

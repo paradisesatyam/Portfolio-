@@ -19,8 +19,8 @@ export const skillGroups = {
 }
 
 export const experience = [
-  { role: 'TPO Joint-Coordinator', org: 'Training & Placement Cell · MGM College of Engineering & Technology', date: '[ADD DURATION]', detail: 'Coordinated placement-related activities between students, faculty, and recruiters.' },
-  { role: 'Startup Coordinator', org: 'Institution Innovation Council (IIC)', date: '[ADD DURATION]', detail: 'Organized entrepreneurship and innovation-focused events and workshops.' },
+  { role: 'TPO Joint-Coordinator', org: 'Training & Placement Cell · MGM College of Engineering & Technology', date: '', detail: 'Coordinated placement-related activities between students, faculty, and recruiters.' },
+  { role: 'Startup Coordinator', org: 'Institution Innovation Council (IIC)', date: '', detail: 'Organized entrepreneurship and innovation-focused events and workshops.' },
   { role: 'Virtual IBM SkillsBuild Academic Internship 2026', org: 'BharatCares (CSRBOX Group), in collaboration with AICTE', date: '22 June 2026 – 30 July 2026 · 6-week Virtual Internship', detail: 'Selected for the 6-week Virtual IBM SkillsBuild Academic Internship 2026 focused on AI Automation & Intelligent Solutions.', tags: ['Artificial Intelligence', 'Agentic AI', 'Intelligent Automation', 'Workflow Orchestration', 'AI-Powered Solution Development', 'Machine Learning', 'Data Analytics', 'AI Integration', 'End-to-End AI Systems'] },
 ]
 
